@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+    <link rel="stylesheet" href="i.css">
+</head>
+<body>
+
+    <div class="isi1-pc">
+        <div class="product-img-kecil">
+            <img src="../gambar/carousel-03.jpg" alt="" onclick="myFunciton(this)" class="img-atas" >
+            <img src="../gambar/carousel-01.jpg" alt="" onclick="myFunciton(this)" class="img-atas">
+            <img src="../gambar/carousel-02.jpg" alt="" onclick="myFunciton(this)" class="img-atas">
+            <img src="../gambar/banner-01.jpg" alt="" onclick="myFunciton(this)" class="img-atas">
+            <img src="../gambar/banner-03.jpg" alt="" onclick="myFunciton(this)" class="img-atas">
+        </div>
+        <div class="img-besar">
+            <img id="imageBox" src="../gambar/carousel-03.jpg" >
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex repudiandae at, voluptas iste labore nulla ad quasi earum deserunt consectetur quia sapiente quis, dolore corporis nam distinctio iure? Harum, sunt.</h1>
+        </div>
+    </div>
+
+
+
+    <script>
+        function myFunciton(smallimg)
+        {
+            var fullimg = document.getElementById("imageBox");
+            fullimg.src = smallimg.src;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1642 @@
+/* css reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* swiper containe1 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* akhir swiper 1 */
+/* modif swiper 1 */
+.hapus-permanen {
+  display: none;
+}
+
+.slide-1 {
+  width: 100%;
+  height: 200px;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: rgb(186, 131, 58);
+}
+
+/* modif swiper2 */
+.pagination-2 {
+  display: none;
+}
+
+.a {
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  transition: all 1s;
+}
+
+/* akhir */
+
+/* layoting */
+
+/* header */
+
+
+.header-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(186, 131, 58);
+
+}
+
+.navbar {
+  font-size: 8px;
+  display: flex;
+  height: 45px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 9px -2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 3px 9px -2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 3px 9px -2px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.teks-header-1 {
+  color: white;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link-navbar-kiri {
+  display: flex;
+  width: 20%;
+  margin-top: 3px;
+  margin-left: 24px;
+}
+
+.logo-navbar {
+  display: flex;
+  margin-top: 5px;
+  width: 60px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.link-navbar-kiri {
+  top: 24px;
+  left: 0;
+  width: 50%;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom-right-radius: 50px;
+  transform: translate(-100%);
+  transition: all 1s;
+  border: 2px solid rgb(186, 131, 58);
+  border-top: none
+}
+
+.link-navbar-kiri.slide {
+  transform: translate(0);
+}
+
+.link-navbar-kiri-pc {
+  display: none;
+}
+
+.link-navbar-kanan {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: end;
+}
+
+.search-bag {
+  display: flex;
+  margin: 0px;
+}
+
+.bag {
+  display: flex;
+}
+
+.sig-in-create {
+  width: 85%;
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+
+.sig-in {
+  margin-right: 10px;
+}
+
+.create-acount {
+  padding-left: 10px;
+  border-left: 1px solid rgb(230, 230, 230);
+}
+
+.search-bag {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3px;
+}
+
+.teks-bag {
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.container1 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* isi2 */
+.judul-isi-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+/*  */
+/* card ke dua isi mobile */
+
+.swiper-button-prev {
+  color: black;
+  transition: all 1s;
+}
+
+.swiper-button-next {
+  color: black;
+  transition: all 1s;
+}
+
+.card-semua {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-semua-mibile {
+  width: 270px;
+  height: 310px;
+}
+
+.card-1 {
+  width: 35%;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 250px;
+  transition: all 1s;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.pembungkus-img {
+  width: 100%;
+  height: 68%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.icn-diskon {
+  color: white;
+  font-size: 0.7em;
+  background-color: red;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.pembungkus-icn-bag-star-panah-eyes {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 550px;
+  transition: all 1s;
+}
+
+.icn-di-dalam-img {
+  width: 20px;
+  height: 20px;
+  transition: all 1s;
+  color: black;
+}
+
+.pembungkus-icn-di-dalam-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 1s;
+}
+
+.bintang {
+  border-left: 1px solid rgb(176, 176, 176);
+  border-right: 1px solid rgb(176, 176, 176);
+
+}
+
+.panah {
+  border-right: 1px solid rgb(176, 176, 176);
+
+}
+
+.bag {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.eyes {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nama-product {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.pembungkus-harga {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.harga-coret {
+  color: rgba(92, 92, 92, 0.701);
+  margin-right: 6px;
+}
+
+.ket-size {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-ket-size {
+  width: 33, 33333333333333%;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgb(197, 197, 197);
+  margin-bottom: 5px;
+}
+
+/* AKHIR CARD ISI KE 2 */
+
+/* isi ke 3 */
+
+.isi-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.pembungkus-img-1-isi-3 {
+  margin-bottom: 3px;
+  width: 80%;
+  background-image: url(../gambar/sepatu-hitam.jpg);
+  background-size: 100% 100%;
+  height: 280px;
+}
+
+.clasic-sport-old-skool {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.harga-clasic-sport-old-skool {
+  color: rgb(52, 52, 52);
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+.link-sepatu-numpuk {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  transition: all 1s;
+  margin-left: 150px;
+}
+
+.pembungkus-img-2-isi-3 {
+  width: 100%;
+  margin-top: 3px;
+  background-image: url(../gambar/sepatu-gantung.jpg);
+  background-size: 100% 100%;
+  height: 180px;
+  padding-left: 15px;
+}
+
+.spring {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.the-vintage {
+  font-size: 22px;
+}
+
+.link-sepatu-gantung {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 1s;
+}
+
+/* akhir isi3 */
+
+/* isi4 */
+.judul-isi-4 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper3 {
+  width: 300px;
+}
+
+.link-isi4 {
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: all 1s;
+}
+
+.pembungkus-img-link-isi-4 {
+  justify-content: space between;
+}
+
+/* akhir isi 4 */
+/* isi conatiner2 bagian1 */
+.pembungkus-container2-bagian-1 {
+  background-image: url(../gambar/BC-1.jpeg);
+  background-size: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pembungkus-item-bagian-1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmail-icn {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 7px;
+}
+
+.teks-subcribe {
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+.pembungkus-your-email-subcribe {
+  width: 370px;
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.teks-email {
+  width: 70%;
+  border: none;
+}
+
+.btn-email {
+  width: 30%;
+  border: none;
+  background: none;
+  transition: all 1s;
+}
+
+/* footer penutup */
+.teks-guide-footer1 {
+  color: rgba(39, 39, 39, 0.596);
+}
+
+.footer {
+  font-size: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(226, 226, 226);
+  padding-top: 30px;
+  height: 190px;
+}
+
+.img-footer1 {
+  width: 60px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.footer1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icn-footer {
+  width: 10px;
+}
+
+.icn-maps {
+  margin-bottom: 17px;
+}
+
+.tk-footer {
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.lk-footer {
+  text-decoration: none;
+  color: rgba(29, 29, 29, 0.596);
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.judul-footer {
+  font-size: 5px;
+  margin-bottom: 13px;
+}
+
+.footer-bawah {
+  background-color: rgb(226, 226, 226);
+  height: 30px;
+  border-top: 3px solid rgb(230, 230, 230);
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 7px;
+}
+
+.footer-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* layout yg sama dan di gabungkan */
+
+
+.icn {
+  width: 18px;
+  color: rgb(202, 202, 202);
+  transition: 1s;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: all 1s;
+
+}
+
+.link-hilang {
+  color: rgb(0, 0, 0);
+  transform: scale3d(1.1);
+}
+
+
+/* hover header */
+.link:hover {
+  color: rgb(186, 131, 58);
+  text-decoration: underline;
+  transform: scale(1.05);
+
+}
+
+.icn:hover {
+  color: rgb(186, 131, 58);
+  transform: scale(1.1);
+}
+
+.link-hilang:hover {
+  color: rgb(183, 183, 183);
+  text-decoration: underline;
+}
+
+/* hover icn hilang isi 2 */
+.swiper-button-prev:hover {
+  color: rgb(255, 188, 81);
+  transform: scale3d(1.5);
+}
+
+.swiper-button-next:hover {
+  color: rgb(255, 188, 81);
+  transform: scale3d(1.5);
+}
+
+.nama-product:hover {
+  color: rgb(220, 220, 220);
+}
+
+.card-1:hover .pembungkus-icn-bag-star-panah-eyes {
+  display: flex;
+  top: 150px;
+}
+
+.pembungkus-icn-bag-star-panah-eyes:hover {
+  transform: scale(1.1);
+}
+
+.pembungkus-icn-di-dalam-img:hover .icn-di-dalam-img {
+  transform: scale(0.7);
+  color: rgb(255, 255, 255);
+}
+
+.pembungkus-icn-di-dalam-img:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-ket-size:hover {
+  background-color: black;
+  color: white;
+  transform: scale(0.9);
+}
+
+
+/* hover 3 */
+.link-sepatu-numpuk:hover {
+  border-radius: 3px;
+  color: rgb(255, 188, 81);
+
+}
+
+.link-sepatu-gantung:hover {
+  color: rgb(255, 188, 81);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 188, 81);
+}
+
+/* hover isi4 */
+.link-isi4:hover {
+  color: rgb(255, 188, 81);
+  background-color: rgb(255, 255, 255);
+  border-color: yellow;
+  transform: scale(1.1);
+}
+
+/* hover isi5 atau container 2 bagian1 */
+
+.btn-email:hover {
+  color: rgb(255, 236, 130);
+  transform: scale(1.1);
+}
+
+.teks-email:hover {
+  border-color: white;
+}
+
+/* hover footer */
+
+.lk-footer:hover {
+  color: black;
+}
+
+/*menu hamburger*/
+
+.hamburger {
+  position: absolute;
+  z-index: 9999;
+  top: 33px;
+  left: 3px;
+}
+
+.menu-togle {
+  margin-left: 5px;
+  margin-top: 3px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.togle {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: black;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.ck {
+  position: absolute;
+  opacity: 0;
+  width: 20px;
+  height: 15px;
+  left: -7px;
+  z-index: 999999;
+}
+
+/*menu hamburger animation*/
+
+.ck:checked~.togle-1 {
+  background-color: rgb(255, 222, 184);
+  transform: rotate(50deg);
+  transform-origin: 0 0;
+}
+
+.ck:checked~.togle-2 {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.ck:checked~.togle-3 {
+  background-color: rgb(255, 222, 184);
+  transform: rotate(-50deg);
+  transform-origin: 0 100%;
+}
+
+/* link hilang */
+.link-hilang {
+  font-size: 20px;
+}
+
+/* responsif */
+
+/*  display tablet */
+@media only screen and (min-width: 641px) {
+
+  /* hover icn hilang isi 2 */
+  .nama-product {
+    color: rgb(233, 233, 233);
+  }
+
+  .card-1:hover {
+    transform: scale(1);
+    box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 5px;
+  }
+
+  .card-1:hover .pembungkus-icn-bag-star-panah-eyes {
+    display: flex;
+    top: 150px;
+  }
+
+  .pembungkus-icn-bag-star-panah-eyes:hover {
+    transform: scale(1.1);
+  }
+
+  .pembungkus-icn-di-dalam-img:hover .icn-di-dalam-img {
+    transform: scale(0.7);
+    color: rgb(255, 255, 255);
+  }
+
+  .pembungkus-icn-di-dalam-img:hover {
+    background-color: black;
+    border-color: black;
+  }
+
+  .btn-ket-size:hover {
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+  }
+
+  /* modif swiper 1 */
+  .slide-1 {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+  }
+
+  .link-navbar-kiri {
+    display: none;
+  }
+
+  .link-navbar-kiri-pc {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+  }
+
+  .navbar {
+    font-size: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+
+  .create-acount {
+    padding-left: 22px;
+    border: none;
+  }
+
+  .sig-in {
+    margin-right: 22px;
+  }
+
+  .sig-in-create {
+    margin-right: 10px;
+  }
+
+  .search-bag {
+    margin-left: 10px;
+  }
+
+  .logo-link-navbar-kiri {
+    width: 55%;
+  }
+
+  .link-navbar-kanan {
+    width: 45%;
+  }
+
+  .icn-search {
+    margin-top: 0px;
+    margin-right: 8px;
+  }
+
+  .teks-bag {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 0.7em;
+  }
+
+  .logo-navbar {
+    width: 70px;
+    height: 35px;
+  }
+
+  /* menu hamburger */
+  .hamburger {
+    display: none;
+  }
+
+  .menu-togle {
+    display: none;
+  }
+
+  /* card ke dua isi */
+  .judul-isi-2 {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+
+  .card-semua-mibile {
+    display: none;
+  }
+
+  .card-semua-mibile {
+    display: none;
+  }
+
+  .card-semua {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
+
+  .card-1 {
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 290px;
+    margin-bottom: 10px;
+
+
+    position: relative;
+  }
+
+  .kiri {
+    margin-left: 0px;
+  }
+
+  .kanan {
+    margin-right: 0px;
+  }
+
+  .pembungkus-img {
+    width: 100%;
+    height: 68%;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .icn-diskon {
+    color: white;
+    font-size: 0.7em;
+    background-color: red;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .pembungkus-icn-bag-star-panah-eyes {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 550px;
+
+  }
+
+  .icn-di-dalam-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pembungkus-icn-di-dalam-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+
+  }
+
+  .bintang {
+    border-left: 1px solid rgb(176, 176, 176);
+    border-right: 1px solid rgb(176, 176, 176);
+
+  }
+
+  .panah {
+    border-right: 1px solid rgb(176, 176, 176);
+
+  }
+
+  .bag {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .eyes {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .pembungkus-panah {
+    padding-top: -2px;
+    width: 25px;
+    height: 27px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .panah-bawah {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    margin-top: 2px;
+  }
+
+  .nama-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .pembungkus-harga {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .harga-coret {
+    color: rgba(92, 92, 92, 0.701);
+    margin-right: 6px;
+  }
+
+  .ket-size {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .btn-ket-size {
+    width: 33, 33333333333333%;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(197, 197, 197);
+  }
+
+  /* AKHIR CARD ISI KE 2 */
+
+  /* isi3 */
+  .isi-3 {
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pembungkus-img-1-isi-3 {
+    width: 30%;
+    height: 170px;
+  }
+
+  .link-sepatu-numpuk {
+    align-items: flex-end;
+  }
+
+  .pembungkus-img-2-isi-3 {
+    width: 68%;
+  }
+
+  .clasic-sport-old-skool {
+    font-size: 15px;
+  }
+
+  .harga-clasic-sport-old-skool {
+    font-size: 10px;
+    margin-bottom: 40px;
+  }
+
+  .link-sepatu-numpuk {
+    top: 5px;
+    font-size: 13;
+    right: 13px;
+  }
+
+  /* isi4 */
+  .mySwiper3 {
+    display: none;
+  }
+
+  .pembungkus-img-link-isi-4 {
+    display: flex;
+  }
+
+  .img-link-isi-4 {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  .link-isi4 {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* footer */
+  .footer {
+    font-size: x-small;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(226, 226, 226);
+    padding-top: 50px;
+    height: 270px;
+  }
+
+  .img-footer1 {
+    width: 75px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .footer1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .icn-footer {
+    width: 20px;
+  }
+
+  .icn-maps {
+    margin-bottom: 27px;
+  }
+
+  .tk-footer {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .lk-footer {
+    text-decoration: none;
+    color: rgba(29, 29, 29, 0.596);
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .judul-footer {
+    font-size: x-small;
+    margin-bottom: 18px;
+  }
+
+  .footer-bawah {
+    background-color: rgb(226, 226, 226);
+    height: 30px;
+    border-top: 3px solid rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    padding-left: 65px;
+    font-size: x-small;
+
+  }
+}
+
+/* display pc */
+@media only screen and (min-width: 1230px) {
+
+  /* hover icn hilang isi 2 */
+
+  .nama-product:hover {
+    color: rgb(233, 233, 233);
+  }
+
+  .card-1:hover {
+    transform: scale(1);
+    box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 1px 5px 27px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 5px;
+  }
+
+  .card-1:hover .pembungkus-icn-bag-star-panah-eyes {
+    display: flex;
+    top: 150px;
+  }
+
+  .pembungkus-icn-bag-star-panah-eyes:hover {
+    transform: scale(1.1);
+  }
+
+  .pembungkus-icn-di-dalam-img:hover .icn-di-dalam-img {
+    transform: scale(0.7);
+    color: rgb(255, 255, 255);
+  }
+
+  .pembungkus-icn-di-dalam-img:hover {
+    background-color: black;
+    border-color: black;
+  }
+
+  .btn-ket-size:hover {
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+  }
+
+
+  /* modif swiper1 */
+  .slide-1 {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 100%;
+  }
+
+  .lk-pc {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+  }
+
+  .navbar {
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .create-acount {
+    border-left: 1px solid rgb(202, 202, 202);
+    padding-left: 22px;
+  }
+
+  .sig-in {
+    margin-right: 22px;
+  }
+
+  .sig-in-create {
+    margin-right: 20px;
+  }
+
+  .search-bag {
+    margin-left: 25px;
+  }
+
+  .logo-link-navbar-kiri {
+    width: 55%;
+  }
+
+  .link-navbar-kanan {
+    width: 45%;
+  }
+
+  .icn-search {
+    margin-top: 3px;
+  }
+
+  .logo-navbar {
+    width: 70px;
+    height: 35px;
+  }
+
+  .teks-bag {
+    margin-left: 3px;
+  }
+
+  .link-sepatu-gantung {
+    right: 680px;
+  }
+
+
+  /* menu hamburger */
+  .hamburger {
+    display: none;
+  }
+
+  .menu-togle {
+    display: none;
+  }
+
+  /* card ke dua isi */
+  .card-semua-mibile {
+    display: none;
+  }
+
+  .card-semua {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+
+  .card-1 {
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 290px;
+
+
+    position: relative;
+  }
+
+  .kiri {
+    margin-left: 0px;
+  }
+
+  .kanan {
+    margin-right: 0px;
+  }
+
+  .pembungkus-img {
+    width: 100%;
+    height: 68%;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .icn-diskon {
+    color: white;
+    font-size: 0.7em;
+    background-color: red;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .pembungkus-icn-bag-star-panah-eyes {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 550px;
+
+  }
+
+  .icn-di-dalam-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pembungkus-icn-di-dalam-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+
+  }
+
+  .bintang {
+    border-left: 1px solid rgb(176, 176, 176);
+    border-right: 1px solid rgb(176, 176, 176);
+
+  }
+
+  .panah {
+    border-right: 1px solid rgb(176, 176, 176);
+
+  }
+
+  .bag {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .eyes {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .pembungkus-panah {
+    padding-top: -2px;
+    width: 25px;
+    height: 27px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .panah-bawah {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    margin-top: 2px;
+  }
+
+  .nama-product {
+    font-size: 9.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+
+  }
+
+  .pembungkus-harga {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .harga-coret {
+    color: rgba(92, 92, 92, 0.701);
+    margin-right: 6px;
+  }
+
+  .ket-size {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .btn-ket-size {
+    width: 33, 33333333333333%;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(197, 197, 197);
+  }
+
+  /* AKHIR CARD ISI KE 2 */
+
+  /* isi3 */
+  .isi-3 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pembungkus-img-1-isi-3 {
+    width: 30%;
+    height: 300px;
+  }
+
+  .pembungkus-img-2-isi-3 {
+    width: 68%;
+    height: 300px;
+  }
+
+  .clasic-sport-old-skool {
+    font-size: 30px;
+  }
+
+  .harga-clasic-sport-old-skool {
+    font-size: 15px;
+    margin-bottom: 120px;
+  }
+
+  .link-sepatu-numpuk {
+    font-size: 13;
+    margin-left: 290px;
+  }
+
+  .spring {
+    top: 55px;
+  }
+
+  .the-vintage {
+    top: 70px;
+    font-size: 50px;
+  }
+
+  .link-sepatu-gantung {
+    top: 220px;
+    font: 25px;
+  }
+
+  /* isi4 */
+  .mySwiper3 {
+    display: none;
+  }
+
+  .link-isi4 {
+    font-size: 13px;
+  }
+
+  /* footer penutup */
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(226, 226, 226);
+    padding-top: 70px;
+    height: 400px;
+    font-size: 16px;
+  }
+
+  .img-footer1 {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .footer1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .icn-footer {
+    width: 20px;
+  }
+
+  .icn-maps {
+    margin-bottom: 47px;
+  }
+
+  .tk-footer {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .lk-footer {
+    text-decoration: none;
+    color: rgba(29, 29, 29, 0.596);
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+
+  .judul-footer {
+    font-size: 16px;
+    margin-bottom: 23px;
+  }
+
+  .footer-bawah {
+    background-color: rgb(226, 226, 226);
+    height: 30px;
+    border-top: 3px solid rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    font-size: large;
+  }
+
+}
