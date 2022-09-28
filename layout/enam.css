@@ -1,0 +1,319 @@
+/* css reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+/* layout */
+body {
+    font-size: 8px;
+}
+
+.container {
+    margin: 10px;
+    text-align: center;
+}
+
+.sebelah-kiri {
+    text-align: center;
+    padding: 20px;
+}
+
+.pembungkus1-kiri {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+}
+
+.pembungkus-1-logo {
+    display: flex;
+    align-items: center;
+}
+
+.kembali {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+.province {
+    border: 1px solid rgba(128, 128, 128, 0.352);
+    border-radius: 3px;
+}
+
+.pembungkus2-kiri {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.teks-pay {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.-pembungkus-card-kiri {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.c {
+    border-bottom: 1px solid rgb(194, 194, 194);
+    border-top: 1px solid rgb(194, 194, 194);
+}
+
+.card1-kiri {
+    display: flex;
+    align-items: center;
+}
+
+.icn-bank {
+    width: 20px;
+}
+
+.pembungkus-kartu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kartu {
+    margin: 1px;
+    width: 13px;
+    height: 8px;
+    border-radius: none;
+    background-color: aqua;
+    background-size: cover;
+    border: 0.10 px solid grey;
+    border-radius: 2px;
+
+}
+
+.powered {
+    text-decoration: none;
+    color: darkblue;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 80px;
+    height: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* kanan */
+.sebelah-kanan {
+    /* background-color: rgb(247, 247, 247); */
+    padding: 20px;
+    width: 100%;
+    font-size: 11px;
+    text-align: start;
+}
+
+.pembungkus-tk2-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.125);
+}
+
+.tk3 {
+    color: red;
+}
+
+.pembungkus-icn-judul-deskripsi {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icn-deskripsi {
+    width: 10px;
+}
+
+.garis {
+    margin: 10px 0px;
+}
+
+.pembungkus-actife {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pembungkus-isi-subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+
+/* hover */
+.kembali:hover {
+    color: burlywood;
+}
+
+.powered:hover {
+    background-color: black;
+    color: white;
+}
+
+.kartu:hover {
+    background-color: black;
+}
+
+.kartu:hover {
+    background-image: none;
+    background-color: black;
+}
+
+/* responsif */
+
+/*  display tablet */
+
+@media only screen and (min-width: 641px) {
+    body {
+        font-size: 20px;
+    }
+
+    .powered {
+        font: 0.3em;
+        width: 170px;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .kartu {
+        width: 30px;
+        height: 20px;
+    }
+
+    .sebelah-kanan {
+        font-size: 20px;
+    }
+}
+
+/* display pc */
+@media only screen and (min-width: 1230px) {
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .sebelah-kiri {
+        width: 50%;
+        padding: 90px;
+    }
+
+    .sebelah-kanan {
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.055);
+        padding: 90px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .tk2-kanan {
+        margin-left: 30px;
+    }
+
+    .icn-deskripsi {
+        width: 27px;
+    }
+}

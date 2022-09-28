@@ -1,0 +1,22 @@
+
+.isi1-pc{
+    display:flex;
+    align-item:center;
+}
+
+.product-img-kecil{
+    height:150px;
+    width:75px;
+    margin:10px 0;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content:space between;
+}
+.img-atas{
+    height:100%;
+    margin:8px;
+}
+img-besar{
+
+}

@@ -1,0 +1,374 @@
+/* css reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* layout */
+body {
+    font-size: 8px;
+}
+
+.container {
+    margin: 10px;
+}
+
+.sebelah-kiri {
+    text-align: center;
+    padding: 20px;
+}
+
+.pembungkus1-kiri {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+}
+
+.pembungkus-1-logo {
+    display: flex;
+    align-items: center;
+}
+
+.kembali {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+.province {
+    border: 1px solid rgba(128, 128, 128, 0.352);
+    border-radius: 3px;
+}
+
+.isi1-kiri {
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid rgba(124, 124, 124, 0.522);
+    padding: 10px;
+}
+
+.kiri-isi1-kiri {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tk1-isi1-kiri {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.pembungkus-code-pembayaran {
+    display: flex;
+}
+
+.icn-copas {
+    width: 10px;
+}
+
+.isi1-kanan {
+    width: 49%;
+}
+
+.isi1-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm-ibanking {
+    text-align: start;
+    margin-top: 20px;
+}
+
+.tk-step {
+    text-align: start;
+}
+
+.lk-atm {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.a {
+    margin: 0px;
+}
+
+/* kanan */
+.sebelah-kanan {
+    /* background-color: rgb(247, 247, 247); */
+    padding: 20px;
+    width: 100%;
+    font-size: 11px;
+    text-align: start;
+}
+
+.pembungkus-tk2-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.125);
+}
+
+.tk3 {
+    color: red;
+}
+
+.pembungkus-icn-judul-deskripsi {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icn-deskripsi {
+    width: 10px;
+}
+
+.garis {
+    margin: 10px 0px;
+}
+
+.pembungkus-actife {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pembungkus-isi-subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.lk-footer {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1px 35px;
+    font-size: 1.8em;
+    border-radius: 5px;
+}
+
+.lk2footer {
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+
+.kiri {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lk2footer {
+    text-align: center;
+}
+
+
+/* hover */
+.lk-footer:hover {
+    background-color: rgba(0, 0, 0, 0.207);
+}
+
+.lk2footer:hover {
+    border-color: black;
+    color: black;
+}
+
+.kembali:hover {
+    color: bisque;
+}
+
+/* responsif */
+
+/*  display tablet */
+
+@media only screen and (min-width: 641px) {
+    body {
+        font-size: 20px;
+    }
+
+    .powered {
+        font: 0.3em;
+        width: 170px;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .kartu {
+        width: 30px;
+        height: 20px;
+    }
+
+    .sebelah-kanan {
+        font-size: 20px;
+    }
+
+    .lk-footer {
+        font-size: 1.5em;
+    }
+
+    .lk2footer {
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
+
+/* display pc */
+@media only screen and (min-width: 1230px) {
+    .container {
+        display: flex;
+        margin: 0px;
+    }
+
+    .sebelah-kiri {
+        width: 50%;
+        padding: 90px;
+    }
+
+    .sebelah-kanan {
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.055);
+        padding: 90px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .tk2-kanan {
+        margin-left: 30px;
+    }
+
+    .icn-deskripsi {
+        width: 27px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: rgb(239, 239, 239);
+    }
+
+    .kiri {
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+
+
+    }
+
+    .kanan {
+        background-color: rgb(136, 162, 162);
+        width: 50%;
+    }
+
+    .lk-footer {
+        width: 200px;
+        text-align: center;
+        margin-left: 250px;
+    }
+
+    .lk2footer {
+        width: 200px;
+        text-align: center;
+        margin-left: 250px;
+    }
+}

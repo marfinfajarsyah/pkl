@@ -1,0 +1,380 @@
+/* css reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+/* layout */
+body {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.pembungkus-contact-ship-method {
+    border: 1px solid gray;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 0px 10px;
+
+}
+
+.pembungkus-contact {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    align-items: center;
+    padding: 10px;
+}
+
+.pembungkus-tk {
+    display: flex;
+    align-items: center;
+}
+
+.teks1 {
+    margin-right: 10px;
+}
+
+.btn-change {
+    border: none;
+    background-color: white;
+}
+
+.payment {
+    margin-top: 30px;
+}
+
+.btn-bulat {
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pembungkus-card {
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.pembungkus-card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px 15px;
+}
+
+.pembungkus-btn-bulat {
+    display: flex;
+    align-items: center;
+}
+
+.tk-btn-bulat {
+    margin-left: 6px;
+}
+
+.btn-card {
+    height: 13px;
+    width: 20px;
+    background-color: gray;
+    border: white;
+}
+
+.add {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.billing {
+    margin-top: 30px;
+}
+
+.icn-card {
+    color: rgb(205, 205, 205);
+    width: 130px;
+}
+
+.ket-tk-card {
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.pembungkus-same {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.pembungkus-same-use {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.use {
+    margin-left: 5px;
+}
+
+.same-as {
+    margin-left: 10px;
+}
+
+.img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.pembungkus-img-tk-harga {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.pembungkus-img-size {
+    display: flex;
+    align-items: center;
+}
+
+.garis {
+    margin: 10px 0px;
+}
+
+.gift {
+    border: 1px solid black;
+}
+
+.btn-apply {
+    border: none;
+    padding: 7px 20px;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+
+.pembungkus-sb-sh {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pembungkus-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pembungkus-idr {
+    display: flex;
+    align-items: center;
+}
+
+.harga-total {
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.pembungkus-atas-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.return {
+    text-decoration: none;
+    color: black;
+}
+
+.continue {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.pembungkus-bawah {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2px;
+    border-top: 1px solid black;
+    margin-top: 25px;
+}
+
+.lk-footer {
+    text-decoration: none;
+    color: black;
+}
+
+.titik {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* responsif */
+/* hover */
+.btn-change:hover {
+    color: gray;
+}
+
+.btn-card:hover {
+    background-color: rgb(221, 221, 221);
+    background-image: none;
+}
+
+.add:hover {
+    color: bisque;
+}
+
+.continue:hover {
+    background-color: rgb(191, 191, 191);
+}
+
+.btn-apply:hover {
+    background-color: black;
+    color: white;
+}
+
+.lk-footer:hover {
+    color: rgba(0, 0, 0, 0.141);
+}
+
+/*  display tablet */
+@media only screen and (min-width: 641px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+/* display pc */
+@media only screen and (min-width: 1230px) {
+    .container {
+        display: flex;
+    }
+
+    .pembungkus-kiri {
+        width: 55%;
+        padding: 30px;
+    }
+
+    .sebelah {
+        width: 45%;
+        padding: 30px;
+        padding-top: 95px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .footer {
+        display: flex;
+        height: 400px;
+    }
+
+    .kanan {
+        width: 45%;
+        background-color: rgb(250, 250, 250);
+
+    }
+
+    .pembungkus-bawah {
+        margin-top: 150px;
+    }
+
+    .pembungkus-gmail-alamat {
+        border-radius: 10px;
+    }
+
+    .pembungkus-kurir {
+        border-radius: 8px;
+    }
+}
